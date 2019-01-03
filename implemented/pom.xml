@@ -5,14 +5,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.iland</groupId>
-    <artifactId>openApi-codeGen-multiModual-restEasy</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <artifactId>openApi-codeGen-multiModual-restEasy</artifactId>
+        <groupId>com.iland</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>generated</module>
-        <module>implemented</module>
-    </modules>
+    <artifactId>openApi-codeGen-multiModual-restEasy-implemented</artifactId>
 
 </project>
